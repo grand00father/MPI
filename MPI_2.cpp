@@ -3,29 +3,6 @@
 #include <chrono>
 #include <iostream>
 
-//Задание 1
-/*
-int main(int argc, char** argv)
-{
-	int rank, size;
-
-	MPI_Init(&argc, &argv);
-
-	MPI_Comm_size(MPI_COMM_WORLD, &size);
-	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-
-	MPI_Finalize();
-
-	printf("Process: %d, size: %d\n", rank, size);
-
-	return 0;
-}
-*/
-
-//Задание 2
-
-
-
 int main(int argc, char** argv)
 {
 	const int MAX = 1000;
